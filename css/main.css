@@ -106,15 +106,26 @@ body, html{
     top: 0;
     left: 0;
 }
-.wrapper a.bt{
-    background: url('../img/bt.png');
-    width: 272px;
-    height: 75px;
+.wrapper a{
+    position: relative;
     display: block;
-    margin: 10px auto 5px;
 }
-.wrapper a:focus{
-    background: url('../img/bt2.png');
+.wrapper a img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.wrapper a img.bt01{
+    margin: 10px 0 5px;
+}
+.wrapper a img.bt02{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.wrapper a:focus img.bt02{
+    opacity: 1;
 }
 .wrapper .under{
     width: 100%;
