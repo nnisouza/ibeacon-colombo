@@ -77,6 +77,8 @@ body, html{
     right: 0;
     margin: auto;
     
+    overflow-y: scroll;
+    
 }
 .wrapper .header{
     width: 100%;
@@ -90,6 +92,23 @@ body, html{
     margin: 0 auto;
     display: block;
     -webkit-transform: translateY(5px);
+}
+.wrapper .content{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.wrapper .content img{
+    width: 100%;
+    height: auto;
+}
+.wrapper .content img#maquina{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.wrapper a.bt{
+    width: 
 }
 
 
