@@ -108,7 +108,25 @@ body, html{
     left: 0;
 }
 .wrapper a.bt{
-    width: 
+    background: url('../img/bt.png');
+    width: 272px;
+    height: 75px;
+    display: block;
+    margin: 10px auto 5px;
+}
+.wrapper a:focus{
+    background: url('../img/bt2.png');
+}
+.wrapper .under{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.wrapper .under img{
+    width: 95%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 
